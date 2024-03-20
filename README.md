@@ -1,9 +1,9 @@
-# Juke-Stream
+# Melody
 Music sharing and Streaming web application
 
-This is a full-stack web application built with the MERN (MongoDB, Express, React, Node.js) stack that allows users to share and stream their favorite audio files. Users can create playlists, upload audio files, and explore other users' collections.
+## This is college project for MERN stack web development
 
-https://user-images.githubusercontent.com/86356896/222892991-06e0b79e-e7b3-47d0-8121-25261df8d728.mp4
+This is a full-stack web application built with the MERN (MongoDB, Express, React, Node.js) stack that allows users to share and stream their favorite audio files. Users can create playlists, upload audio files, and explore other users' collections.
 
 ## Features
 * User authentication and authorization using JWT tokens.
@@ -31,9 +31,8 @@ This will install the required dependencies for both the client and server appli
 Next, create a .env file in the API directory with the following environment variables:
 ```
 MONGODB_URI=<your-mongodb-uri>
-JWT_SECRET=<your-jwt-secret>
 ```
-Replace <your-mongodb-uri> with the connection string for your MongoDB instance, and <your-jwt-secret> with a secret string of your choice.
+Replace <your-mongodb-uri> with the connection string for your MongoDB instance.
 
 Finally, start the client and server applications with the following commands:
 ```
